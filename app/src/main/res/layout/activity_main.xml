@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:id="@+id/layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/txt_level"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="LEVEL:"
+            android:visibility="gone"
+            android:textColor="@color/colorDarkBlue"
+            android:background="@color/colorLightGrey"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/txt_bestScore"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="BEST SCORE:"
+            android:visibility="gone"
+            android:textColor="@color/colorDarkBlue"
+            android:background="@color/colorLightGrey"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:background="@color/colorLightGrey">
+        <TextView
+            android:id="@+id/txt_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="TIME:"
+            android:visibility="gone"
+            android:textColor="@color/colorDarkBlue"
+            android:background="@color/colorLightGrey"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:background="@color/colorLightGrey">
+        <TextView
+            android:id="@+id/txt_score"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="WHICH ONE IS BIGGEST?"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLightGrey"
+        android:layout_weight="3">
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="START"
+            android:textColor="@color/colorLightGrey"
+            android:background="@drawable/level3"
+            android:textSize="50dp"
+            android:onClick="btn_1_clicked"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:visibility="gone"
+            android:textColor="@color/colorLightGrey"
+            android:textSize="50dp"
+            android:onClick="btn_2_clicked"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:visibility="gone"
+            android:textColor="@color/colorLightGrey"
+            android:textSize="50dp"
+            android:onClick="btn_3_clicked"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:visibility="gone"
+            android:textColor="@color/colorLightGrey"
+            android:textSize="50dp"
+            android:onClick="btn_4_clicked"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorLightGrey"
+        android:layout_weight="3"
+        android:visibility="gone">
+        <Button
+            android:id="@+id/btn_5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="START"
+            android:visibility="gone"
+            android:textColor="@color/colorLightGrey"
+            android:textSize="50dp"
+            android:onClick="btn_5_clicked"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/btn_6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:visibility="gone"
+            android:textColor="@color/colorLightGrey"
+            android:textSize="50dp"
+            android:onClick="btn_6_clicked"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/btn_7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:visibility="gone"
+            android:textColor="@color/colorLightGrey"
+            android:textSize="50dp"
+            android:onClick="btn_7_clicked"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/btn_8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:visibility="gone"
+            android:textColor="@color/colorLightGrey"
+            android:textSize="50dp"
+            android:onClick="btn_8_clicked"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>
